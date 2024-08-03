@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Publications</title>
+    
+    <!-- Bootstrap -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <!-- Icon font -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .top-nav {
+            width: 100%;
+            background-color: #333;
+            overflow: hidden;
+        }
+        .top-nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .top-nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        .cv-section {
+            width: 80%;
+            max-width: 800px;
+        }
+        .cv-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .cv-logo {
+            width: 150px;
+            height: 150px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-right: 20px;
+        }
+        .cv-description {
+            flex: 1;
+        }
+        .cv-description h3 {
+            margin: 0 0 10px 0;
+        }
+        .cv-description p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <div id="head" class="parallax" parallax-speed="1">
+            <h3 id="logo" class="text-center">
+                <span class="title">Ekaterina Osipova - CV</span>
+
+            </h3>
+        </div>
+
+        <nav class="navbar navbar-default navbar-sticky">
+            <div class="container-fluid">
+                
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                
+                <div class="navbar-collapse collapse">
+                    
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="index.html#contacts">Contact</a></li>
+                    </ul>
+                
+                </div><!--/.nav-collapse -->            
+            </div>  
+        </nav>
+    </header>
+
+    <section class="cv-section">
+        <div class="cv-item">
+            <div class="cv-logo" style="background-image: url('images_cv/harvard_logo.jpg');"></div>
+            <div class="cv-description">
+                <h3>Harvard University</h3>
+                <p>Postdoctoral Fellow<br>2022 - </p>
+                <p><a href="https://informatics.fas.harvard.edu/">FAS Informatics Group</a></p> 
+                <p>Department of Organismic and Evolutionary Biology.</p>
+                <p>Advisors: Timothy Sackton, PhD; Michael Sorenson, PhD</p>
+            </div>
+        </div>
+
+        <div class="cv-item">
+            <div class="cv-logo" style="background-image: url('images_cv/MPI_logo.jpg');"></div>
+            <div class="cv-description">
+                <h3>Max Planck Institute</h3>
+                <p>Ph.D. Evolution and Bioinformatics<br>2017 - 2022</p>
+                <p><a href="https://www.mpi-cbg.de/">MPI of Molecular Cell Biology and Genetics</a></p>
+                <p>Dissertation: Genomic adaptations to a high sugar diet in birds</p>
+                <p>Advisor: Michael Hiller, PhD</p>
+            </div>
+        </div>
+
+        <div class="cv-item">
+            <div class="cv-logo" style="background-image: url('images_cv/msu_logo.png');"></div>
+            <div class="cv-description">
+                <h3>Lomonosov Moscow State University </h3>
+                <p>B.S.+M.S. Fundamental and Applied Chemistry<br>2011 - 2017</p>
+                <p>Thesis: Allosteric regulation of pyrophosphatases</p>
+                <p>Advisor: Alexander Baykov, PhD</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
