@@ -225,7 +225,7 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background: #f4f4f4 url("/Users/osipova/Documents/CareerDocs/personal_website_v2/images_main/bg_combined.png") top center;
+  background: #f4f4f4 url("images_main/bg_combined.png") top center;
   background-size: cover;
   color: #7C7C7C;
   height: 400px;
